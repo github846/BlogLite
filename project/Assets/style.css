@@ -1,0 +1,251 @@
+*
+{
+	color: #EED;
+	font-family: Georgia;
+	transition: all 0.1s;
+}
+
+.article
+{
+	max-width: 50%;
+	background: #58d;
+}
+
+body
+{
+	background: #334;
+}
+
+.container
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.confirmbox
+{
+	background: #834;
+	display: flex;
+	width: 50%;
+	padding: 1%;
+	margin: 10%;
+	flex-direction: column;
+	margin: auto;
+}
+
+.confirmrow
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.cancel
+{
+	text-align: center;
+	padding: 1%;
+	background: #6D8;
+}
+
+.ok
+{
+	text-align: center;
+	padding: 1%;
+	background: #e55;
+}
+
+.ok:hover
+{
+	background: #f8d;
+}
+
+header
+{
+	position: sticky;
+	top : 0;
+	left: 0;
+	background: #834;
+	width: 100%;
+}
+.postlist
+{
+	width: 50%;
+}
+.warning
+{
+	color: #e55;
+	font-size: 2em;
+}
+
+.warning:hover
+{
+	color: white;
+}
+
+.search
+{
+	position: sticky;
+	top: 1%;
+	left: 50%;
+	display: flex;
+	width: 50%;
+	flex-direction: row;
+}
+
+button
+{
+	border: none;
+	background: #6D8;
+	color: white;
+	font-family: 1234;
+	font-size: 1.2 em;
+}
+
+button:hover
+{
+	background: #f8d;
+}
+
+footer
+{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background: #834;
+	padding: 10px;
+	width: 100%;
+	text-align: center;
+}
+
+a
+{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.2em;
+	margin: auto;
+}
+
+.logged
+{
+	color: #6D8;
+}
+
+form
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 80%;
+	background: #358;
+	justify-content: space-between;
+}
+
+a:hover
+{
+	color: #f8d;
+}
+.author
+{
+	position: fixed;
+	right: 0%;
+	top: 20%;
+	width: 50%;
+}
+
+input, textarea
+{
+	background: #58d;
+	width: 80%;
+	border: none;
+	color: #fff;
+	margin: 1%;
+}
+
+.menu
+{
+	width: 60%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.alert
+{
+	background: #e55;
+	color: #EED;
+	padding: 5px;
+	width: max-content;
+}
+
+.send
+{
+	padding: 5px;
+	border-radius: 5px;
+	background: #834;
+	width: max-content;
+	margin: auto;
+	border: none;
+}
+
+.send:hover
+{
+	background: #f8d;
+}
+
+.notice
+{
+	color: #8bf;
+	font-size: 0.75em;
+}
+
+.homepage
+{
+	color: #6D8;
+	font-size: 3em;
+	text-align: center;
+}
+
+@media screen and (max-width: 576px)
+{
+	.article
+	{
+		width: 80%;
+	}
+
+	.confirmbox
+	{
+		width: 80%;
+	}
+
+	.menu
+	{
+		width: 100%;
+	}
+
+	a
+	{
+		font-size: 1.1em;
+	}
+}
+
+@media screen and (max-width: 768px)
+{
+	.article
+	{
+		width: 75%;
+	}
+
+	.confirmbox
+	{
+		width: 70%;
+	}
+
+	.menu
+	{
+		width: 80%;
+	}
+
+	.author
+	{
+		width: 100%;
+	}
+}
